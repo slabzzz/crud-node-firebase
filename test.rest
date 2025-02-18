@@ -11,7 +11,7 @@ Content-Type: application/json
 
 {
     "name": "banana",
-    "status": "friend"
+    "status": "frieind"
 }
 
 ### UPDATE STATUS OF A FRIEND
@@ -19,8 +19,8 @@ PATCH http://localhost:8383/changestatus
 Content-Type: application/json
 
 {
-    "name": "banana",
-    "newStatus": "enemy"
+    "name": "tomato",
+    "newStatus": "friend"
 }
 
 
